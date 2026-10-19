@@ -100,6 +100,22 @@ export const App: React.FC = () => {
   // Temporary feedback toast
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
+  // Fallback global para que un enlace externo o una imagen local ausente no deje tarjetas vacías.
+  useEffect(() => {
+    const fallbackImage = 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=85';
+
+    const handleImageError = (event: Event) => {
+      const image = event.target as HTMLImageElement;
+      if (image.tagName !== 'IMG' || image.dataset.fallbackApplied === 'true') return;
+
+      image.dataset.fallbackApplied = 'true';
+      image.src = fallbackImage;
+    };
+
+    document.addEventListener('error', handleImageError, true);
+    return () => document.removeEventListener('error', handleImageError, true);
+  }, []);
+
   // Sync to localStorage
   useEffect(() => {
     setStoredItem('rtm_products_v2', products);
