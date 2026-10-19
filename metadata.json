@@ -1,0 +1,6 @@
+{
+  "name": "RTM Outdoor",
+  "description": "Tienda especializada en pesca deportiva, camping y aventura outdoor en Argentina. Equipamiento profesional para río Paraná, dorados, surubíes y camping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
