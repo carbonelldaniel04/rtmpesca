@@ -433,10 +433,15 @@ export const AdminPanelModal: React.FC<AdminPanelModalProps> = ({
                       </label>
                       <input
                         type="url"
+                        inputMode="url"
+                        placeholder="https://tu-dominio.com/imagen-del-producto.jpg"
                         value={newProduct.image}
                         onChange={(e) => setNewProduct({ ...newProduct, image: e.target.value })}
                         className="w-full p-2.5 bg-black border border-neutral-700 rounded-lg text-white"
                       />
+                      <p className="mt-1.5 text-[11px] leading-relaxed text-neutral-500">
+                        Usá un enlace público y directo a la imagen (que termine en .jpg, .png o .webp). Así podrá cargarse desde cualquier ordenador.
+                      </p>
                     </div>
 
                     <div className="sm:col-span-3">

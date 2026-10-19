@@ -48,7 +48,7 @@ import { SearchOverlayModal } from './components/SearchOverlayModal';
 export const App: React.FC = () => {
   // State: Products
   const [products, setProducts] = useState<Product[]>(() =>
-    getStoredItem('rtm_products', INITIAL_PRODUCTS)
+    getStoredItem('rtm_products_v2', INITIAL_PRODUCTS)
   );
 
   // State: Cart
@@ -102,7 +102,7 @@ export const App: React.FC = () => {
 
   // Sync to localStorage
   useEffect(() => {
-    setStoredItem('rtm_products', products);
+    setStoredItem('rtm_products_v2', products);
   }, [products]);
 
   useEffect(() => {

@@ -5,7 +5,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'senuelos',
     name: 'Señuelos',
     slug: 'senuelos',
-    image: '/images/photo-1516962215378-7fa2e137ae93.jpg',
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=85',
     count: 142,
     type: 'pesca',
     description: 'Paseantes, minnows, poppers y bananas para dorado y tararira.'
@@ -14,7 +14,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'reels',
     name: 'Reels',
     slug: 'reels',
-    image: '/images/photo-1544551763-46a013bb70d5.jpg',
+    image: 'https://images.unsplash.com/photo-1559825481-12a05cc00344?auto=format&fit=crop&w=1200&q=85',
     count: 86,
     type: 'pesca',
     description: 'Rotativos, baitcasting y frontales de alta precisión y arrastre.'
@@ -23,7 +23,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'canas',
     name: 'Cañas',
     slug: 'canas',
-    image: '/images/photo-1534043464124-3be32fe000c9.jpg',
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=85',
     count: 94,
     type: 'pesca',
     description: 'Grafito de alto módulo de 10 a 30 lbs para río y costa.'
@@ -32,7 +32,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'nylon-multifilamento',
     name: 'Nylon y Multifilamento',
     slug: 'nylon-multifilamento',
-    image: '/images/photo-1583212292454-1fe6229603b7.jpg',
+    image: 'https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&w=1200&q=85',
     count: 65,
     type: 'pesca',
     description: 'Líneas trenzadas 8X de máxima resistencia a la abrasión.'
@@ -41,7 +41,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'anzuelos',
     name: 'Anzuelos',
     slug: 'anzuelos',
-    image: '/images/photo-1615147342761-9238e15d8b96.jpg',
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=85',
     count: 110,
     type: 'pesca',
     description: 'Mustad, Owner y Eagle Claw reforzados para grandes peces.'
@@ -50,7 +50,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'boyas-flotadores',
     name: 'Boyas y Flotadores',
     slug: 'boyas-flotadores',
-    image: '/images/photo-1507525428034-b723cf961d3e.jpg',
+    image: 'https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=1200&q=85',
     count: 48,
     type: 'pesca',
     description: 'Boyas luminosas, chupetes y lágrimas de balsa para pejerrey y boga.'
@@ -59,7 +59,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'carnadas-artificiales',
     name: 'Carnadas Artificiales',
     slug: 'carnadas-artificiales',
-    image: '/images/photo-1541781774459-bb2af2f05b55.jpg',
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=85',
     count: 53,
     type: 'pesca',
     description: 'Gomas perfumadas, shads, vinilos y faldudos para depredadores.'
@@ -68,7 +68,7 @@ export const PESCA_CATEGORIES: CategoryCard[] = [
     id: 'plomos',
     name: 'Plomos',
     slug: 'plomos',
-    image: '/images/photo-1518709268805-4e9042af9f23.jpg',
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=85',
     count: 32,
     type: 'pesca',
     description: 'Torpedos, satélites, con destorcedor y pirámides para correntada.'
@@ -80,7 +80,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'carpas',
     name: 'Carpas',
     slug: 'carpas',
-    image: '/images/photo-1504280390367-361c6d9f38f4.jpg',
+    image: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1200&q=85',
     count: 28,
     type: 'camping',
     description: 'Estructurales e iglú de 2 a 6 personas con columna de agua 3000mm.'
@@ -89,7 +89,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'bolsas-dormir',
     name: 'Bolsas de Dormir',
     slug: 'bolsas-dormir',
-    image: '/images/photo-1510312305653-8ed496efae75.jpg',
+    image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=85',
     count: 34,
     type: 'camping',
     description: 'Térmicas tipo sarcófago para rangos extremos de 0°C a -15°C.'
@@ -98,7 +98,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'conservadoras',
     name: 'Conservadoras',
     slug: 'conservadoras',
-    image: '/images/photo-1526778548025-fa2f459cd5c1.jpg',
+    image: 'https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=1200&q=85',
     count: 22,
     type: 'camping',
     description: 'Rotomoldeadas y de alto rendimiento que mantienen hielo hasta 5 días.'
@@ -107,7 +107,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'sillas-plegables',
     name: 'Sillas Plegables',
     slug: 'sillas-plegables',
-    image: '/images/photo-1540555700478-4be289fbecef.jpg',
+    image: 'https://images.unsplash.com/photo-1504851149312-7a075b496cc7?auto=format&fit=crop&w=1200&q=85',
     count: 41,
     type: 'camping',
     description: 'Sillones de pesca con portavasos, ultra livianos y resistentes.'
@@ -116,7 +116,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'linternas',
     name: 'Linternas',
     slug: 'linternas',
-    image: '/images/linterna-frontal.jpg',
+    image: 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1200&q=85',
     count: 57,
     type: 'camping',
     description: 'Frontales recargables y faroles LED de 1500 lúmenes para noche de pesca.'
@@ -125,7 +125,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'hornillos',
     name: 'Hornillos',
     slug: 'hornillos',
-    image: '/images/photo-1478131143081-80f7f84ca84d.jpg',
+    image: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1200&q=85',
     count: 19,
     type: 'camping',
     description: 'Anafes a gas butano y quemadores ultralivianos de titanio.'
@@ -134,7 +134,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'mochilas',
     name: 'Mochilas',
     slug: 'mochilas',
-    image: '/images/photo-1553062407-98eeb64c6a62.jpg',
+    image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=85',
     count: 36,
     type: 'camping',
     description: 'Trekking de 40L a 75L con soporte lumbar y cubre mochila impermeable.'
@@ -143,7 +143,7 @@ export const CAMPING_CATEGORIES: CategoryCard[] = [
     id: 'termos',
     name: 'Termos',
     slug: 'termos',
-    image: '/images/photo-1517256064527-09c73fc73e38.jpg',
+    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85',
     count: 26,
     type: 'camping',
     description: 'Acero inoxidable doble pared con pico cebador clásico para el río.'
@@ -161,7 +161,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 385000,
     installments: { count: 6, amount: 57500 },
     stock: 12,
-    image: '/images/photo-1544551763-46a013bb70d5.jpg',
+    image: 'https://images.unsplash.com/photo-1559825481-12a05cc00344?auto=format&fit=crop&w=1200&q=85',
     badge: 'Más Vendido',
     rating: 4.9,
     reviewsCount: 38,
@@ -187,7 +187,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 215000,
     installments: { count: 6, amount: 31500 },
     stock: 8,
-    image: '/images/photo-1534043464124-3be32fe000c9.jpg',
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=85',
     badge: 'Nuevo',
     rating: 4.8,
     reviewsCount: 22,
@@ -213,7 +213,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 28000,
     installments: { count: 3, amount: 8166 },
     stock: 45,
-    image: '/images/photo-1516962215378-7fa2e137ae93.jpg',
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=85',
     badge: 'Oferta',
     rating: 5.0,
     reviewsCount: 64,
@@ -239,7 +239,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 52000,
     installments: { count: 3, amount: 15600 },
     stock: 30,
-    image: '/images/photo-1583212292454-1fe6229603b7.jpg',
+    image: 'https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?auto=format&fit=crop&w=1200&q=85',
     badge: 'Más Vendido',
     rating: 4.9,
     reviewsCount: 41,
@@ -264,7 +264,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 550000,
     installments: { count: 6, amount: 82500 },
     stock: 6,
-    image: '/images/photo-1504280390367-361c6d9f38f4.jpg',
+    image: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1200&q=85',
     badge: 'Nuevo',
     rating: 4.8,
     reviewsCount: 15,
@@ -289,7 +289,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 155000,
     installments: { count: 6, amount: 22500 },
     stock: 24,
-    image: '/images/photo-1517256064527-09c73fc73e38.jpg',
+    image: 'https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85',
     badge: 'Más Vendido',
     rating: 5.0,
     reviewsCount: 89,
@@ -314,7 +314,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 295000,
     installments: { count: 6, amount: 44666 },
     stock: 10,
-    image: '/images/photo-1526778548025-fa2f459cd5c1.jpg',
+    image: 'https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=1200&q=85',
     badge: 'Oferta',
     rating: 4.7,
     reviewsCount: 19,
@@ -337,7 +337,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 430000,
     installments: { count: 6, amount: 65833 },
     stock: 7,
-    image: '/images/photo-1544551763-46a013bb70d5.jpg',
+    image: 'https://images.unsplash.com/photo-1559825481-12a05cc00344?auto=format&fit=crop&w=1200&q=85',
     badge: 'Nuevo',
     rating: 5.0,
     reviewsCount: 14,
@@ -361,7 +361,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 210000,
     installments: { count: 6, amount: 30333 },
     stock: 15,
-    image: '/images/photo-1510312305653-8ed496efae75.jpg',
+    image: 'https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=85',
     badge: 'Oferta',
     rating: 4.8,
     reviewsCount: 26,
@@ -384,7 +384,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 195000,
     installments: { count: 6, amount: 29166 },
     stock: 18,
-    image: '/images/linterna-frontal.jpg',
+    image: 'https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1200&q=85',
     badge: 'Más Vendido',
     rating: 4.9,
     reviewsCount: 31,
@@ -407,7 +407,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 24500,
     installments: { count: 3, amount: 7300 },
     stock: 50,
-    image: '/images/photo-1516962215378-7fa2e137ae93.jpg',
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=85',
     badge: 'Más Vendido',
     rating: 4.9,
     reviewsCount: 52,
@@ -432,7 +432,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     originalPrice: 79000,
     installments: { count: 3, amount: 22666 },
     stock: 25,
-    image: '/images/photo-1540555700478-4be289fbecef.jpg',
+    image: 'https://images.unsplash.com/photo-1504851149312-7a075b496cc7?auto=format&fit=crop&w=1200&q=85',
     badge: 'Oferta',
     rating: 4.6,
     reviewsCount: 17,
@@ -478,7 +478,7 @@ export const WEEKLY_OFFER_DEFAULT: WeeklyOffer = {
   featuredProductName: 'Combo Río Paraná Dorado Master Pro',
   featuredProductPrice: 499000,
   featuredProductOriginalPrice: 765000,
-  featuredProductImage: '/images/photo-1544551763-46a013bb70d5.jpg',
+  featuredProductImage: 'https://images.unsplash.com/photo-1559825481-12a05cc00344?auto=format&fit=crop&w=1200&q=85',
   bannerImage: '/offer-banner.jpg',
   countdownDays: 4,
   active: true
@@ -542,7 +542,7 @@ Un multifilamento de 40 a 50 lbs con un líder de acero termosellado de al menos
     readTime: '6 min de lectura',
     author: 'Esteban Martínez - Guía de Pesca RTM',
     category: 'Técnicas de Pesca',
-    image: '/images/photo-1516962215378-7fa2e137ae93.jpg',
+    image: 'https://images.unsplash.com/photo-1530549387789-4c1017266635?auto=format&fit=crop&w=1200&q=85',
     tags: ['Dorado', 'Paraná', 'Baitcasting', 'Señuelos']
   },
   {
@@ -563,7 +563,7 @@ Un multifilamento de 40 a 50 lbs con un líder de acero termosellado de al menos
     readTime: '5 min de lectura',
     author: 'Ramiro Tolosa - Asesor Técnico RTM',
     category: 'Equipamiento Recomendado',
-    image: '/images/photo-1544551763-46a013bb70d5.jpg',
+    image: 'https://images.unsplash.com/photo-1559825481-12a05cc00344?auto=format&fit=crop&w=1200&q=85',
     tags: ['Reels', 'Shimano', 'Baitcasting', 'Equipamiento']
   },
   {
@@ -585,7 +585,7 @@ La zona del Salto Chico y Salto Grande es el hogar de los dorados más pesados d
     readTime: '8 min de lectura',
     author: 'Marcos Benítez - Expediciones Outdoor',
     category: 'Destinos de Pesca',
-    image: '/images/photo-1507525428034-b723cf961d3e.jpg',
+    image: 'https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=1200&q=85',
     tags: ['Turismo', 'Corrientes', 'Río Paraná', 'Paso de la Patria']
   },
   {
@@ -607,7 +607,7 @@ Una conservadora de buena calidad debe abrirse lo menos posible. Colocá una fra
     readTime: '4 min de lectura',
     author: 'Laura Carrizo - Especialista en Camping',
     category: 'Consejos para Camping',
-    image: '/images/photo-1504280390367-361c6d9f38f4.jpg',
+    image: 'https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=1200&q=85',
     tags: ['Camping', 'Carpas', 'Supervivencia', 'Aventura']
   }
 ];
